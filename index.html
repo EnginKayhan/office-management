@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+
+
+	<title>Login</title>
+
+
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body class="account-page" style="  background-image: url('assets/image/login.png');background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;   ">
+
+	<div class="main-wrapper">
+		<div class="account-content">
+			<div class="container">
+
+				<div class="account-logo">
+					<a href="molehiya/admin/assets/Img/molehiya.jpg"><img src="logo1.jpg" alt="Logo"></a>
+				</div>
+
+				<div class="account-box">
+					<div class="account-wrapper">
+						<h3 class="account-title">Login</h3>
+						<p class="account-subtitle">Access to Dashboard</p>
+
+						<form action="Login.php" method="POST">
+							<div class="form-group">
+								<label>Email Address</label>
+								<input class="form-control" type="text" id="mail" name="mail" value="example@example.com">
+							</div>
+							<div class="form-group">
+								<div class="row">
+									<div class="col">
+										<label>Password</label>
+									</div>
+
+								</div>
+								<div class="position-relative">
+									<input class="form-control" type="password" value="123456" id="password" name="password">
+									<span class="fa fa-eye-slash" id="toggle-password"></span>
+								</div>
+							</div>
+							<div class="form-group text-center">
+								<button class="btn btn-primary account-btn" type="submit">Login</button>
+							</div>
+
+						</form>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="assets/js/jquery-3.6.0.min.js"></script>
+
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+	<script src="assets/js/app.js"></script>
+</body>
+
+</html>
